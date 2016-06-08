@@ -27,27 +27,3 @@ def answer(food, grid):
     
     if ans: return food - ans
     else: return -1
-        
-        
-# #expect1
-grid = [[0,2], [3,1]]
-food = 5
-# 
-# expect 0
-# grid = [[0, 1, 1], [1, 1, 1], [1, 1, 1]]
-# food = 4
-# 
-# #expect 0
-# grid = [[0, 2, 5], [1, 1, 3], [2, 1, 1]]
-# food = 7
-# 
-# #expect 1
-# grid = [[0, 2, 5], [1, 1, 3], [2, 1, 1]]
-# food = 12
-# 
-#expect 0
-# grid = [[0, 7, 4, 3], [3, 5, 5, 3], [5, 2, 7, 9], [1, 9, 8, 4]]
-# food = 30
-
-
-print answer(food, grid)
